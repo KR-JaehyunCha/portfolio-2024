@@ -1,0 +1,30 @@
+.projects-header {
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    padding-left: 38%;
+}
+
+.projects-header__name {
+    font-size: 65px;
+}
+
+.main_first_div {
+    position: relative;
+    padding-top: 1.5%;
+}
+
+.main_second_div {
+    position: relative;
+    padding-top: 2.5%;
+}
+
+.first_project, .second_project, .third_project, .fourth_project, .fifth_project, .etc_project {
+    height: 250px;
+    width: 15%;
+    background-color: aqua;
+    border: 1px solid black;
+    display: inline-block;
+    position: relative;
+    left: 46%;
+}

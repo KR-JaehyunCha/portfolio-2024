@@ -1,0 +1,33 @@
+.nav_list {
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: flex-end;
+    gap: 3rem;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+.welcome-header {
+    color: white;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.welcome-header__name {
+    font-size: 75px;
+}
+
+.welcome-header__developer-type {
+    font-size: 20px;
+}
+
+.welcome-header__sns-icon {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+}
