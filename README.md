@@ -1,4 +1,4 @@
 # Jaehyun's Portfolio
 
-Welcome!
+Welcome to my portfolio
  
