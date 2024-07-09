@@ -2,26 +2,31 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Baskervville+SC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to My portfolio</title>
 </head>
 <body>
-    <nav class="navigation">
-        <ul class="nav_list">
-            <a href="#" style="color:white; text-decoration: none">
-                <li class="project_link">Projects</li>
-            </a>
-            <a href="#aboutMe" style="color:white; text-decoration: none">
-                <li class="aboutMe_link">About Me</li>
-            </a>
-            <a href="#" style="color:white; text-decoration: none">
-                <li class="contact_link">Contact</li>
-            </a>
-        </ul>
-    </nav>
     
-    <section id="main" class="section" style="background-image: url('photos/index-background.jpg');">
+    <div id="main" class="section" style="background-image: url('photos/index-background.jpg')";>
+        
+        <div class="navigation">
+            <ul class="nav_list">
+                <a href="#" style="color:white; text-decoration: none">
+                    <li class="project_link">Projects</li>
+                </a>
+                <a href="#aboutMe" style="color:white; text-decoration: none">
+                    <li class="aboutMe_link">About Me</li>
+                </a>
+                <a href="#" style="color:white; text-decoration: none">
+                    <li class="contact_link">Contact</li>
+                </a>
+            </ul>
+        </div>
+        
         <header class="welcome-header">
             <h1 class="welcome-header__name">Jaehyun Cha</h1>
             <p class="welcome-header__developer-type">
@@ -41,18 +46,51 @@
                 </li>
             </span>
         </header>
-    </section>
+    </div>
 
-    <section id="aboutMe" class="section">
-        <h1>AboutME</h1>
-        <p>hi</p>
+    <div id="aboutMe" class="section" style="background-color:white";>
+        
+        <div class="aboutMe_Intro">ABOUT ME.</div>
+        
+            <div class="aboutMe_Description">
+                <div class="aboutMe_Page">
+                    <span class="aboutMe_Introducing">     
+                            I'm a UCSD student graduating in 2026, <br>
+                            <br> 
+                            working towards becoming a full-stack developer. <br>
+                            <br>
+                            Currently, I'm passionate being a full-stack developer, <br> 
+                            <br>
+                            with a growing interest in AI and Big Data.<br>
+                    </span>
+                </div>
 
-    </section>
+                
+                <div class="aboutMe_Profile_Skill">
+                    
+                    <div class="aboutMe_Profile">
+                            <h1>Profile</h1>
+                            Name: Jaehyun Cha <br>
+                            Birth: January 18, 2000 <br>
+                            Email: anthonycha0118@gmail.com <br>
+                    </div>
+                    
+                    <div class="aboutMe_Skill">
+                        <h1>Skills</h1>
+                        HTML, CSS <br>
+                        C++ <br>
+                        Java <br>
+                        Javascript <br>
+                    </div>
+                
+                </div>
+            </div>
+    </div>
 
-    <section id="projects" class="section">
+    <div id="projects" class="section">
         <h1>Projects</h1>
         <p>hi</p>
-    </section>
+    </div>
 
     <script src="https://kit.fontawesome.com/885722f0e5.js" crossorigin="anonymous"></script>
 
